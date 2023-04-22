@@ -1,0 +1,24 @@
+$fa-font-path: '../fonts';
+
+@import "../node_modules/font-awesome/scss/variables";
+@import "../node_modules/font-awesome/scss/mixins";
+
+// @import "font-awesome/scss/path";
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('#{$fa-font-path}/fontawesome.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@import "../node_modules/font-awesome/scss/core";
+// @import "font-awesome/scss/larger";
+// @import "font-awesome/scss/fixed-width";
+@import "../node_modules/font-awesome/scss/list";
+// @import "font-awesome/scss/bordered-pulled";
+// @import "font-awesome/scss/animated";
+// @import "font-awesome/scss/rotated-flipped";
+// @import "font-awesome/scss/stacked";
+@import "../node_modules/font-awesome/scss/icons";
